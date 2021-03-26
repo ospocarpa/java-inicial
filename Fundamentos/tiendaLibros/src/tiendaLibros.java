@@ -12,7 +12,7 @@ public class tiendaLibros {
         
         System.out.println("Proporcione el id:");
         int id=Integer.parseInt(consola.nextLine());
-       
+        
         System.out.println("Proporciona el precio:");
         double precio=Double.parseDouble((consola.nextLine()));
        
