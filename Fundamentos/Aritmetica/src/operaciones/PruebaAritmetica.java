@@ -25,6 +25,6 @@ public class PruebaAritmetica {
     public static void miMetodo() {
         System.out.println("Ejecutando otro metodo");
         //la variable esta fuera del alcance donde fue definida
-        // a=10;
+        // a=10
     }
 }
