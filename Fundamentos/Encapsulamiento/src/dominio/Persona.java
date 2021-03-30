@@ -26,6 +26,11 @@ public class Persona {
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
     }
-    
+    public boolean isEliminado() {
+        return this.eliminado;
+    }
+    public void setEliminado(boolean eliminado) {
+        this.eliminado = eliminado;
+    }
     
 }
