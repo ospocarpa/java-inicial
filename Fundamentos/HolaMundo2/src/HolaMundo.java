@@ -1,17 +1,17 @@
 
+import java.util.Scanner;
+
+
 public class HolaMundo {
     public static void main(String[] args) {
         
-        var usuario = "Oscar";
-        var titulo = "Estudiante ";
-        var union = titulo + usuario;
-        System.out.println("union = " + union);
-        
-        var i=3;var j=4;
-        System.out.println(i+j);
-        System.out.println(i+j+usuario);
-        System.out.println(usuario+i+j);
-        System.out.println(usuario + (i+j));
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Escribe tu nombre");
+        var nombre = consola.nextLine();
+        System.out.println("nombre = " + nombre);
+        System.out.println("Escribe un titulo");
+        var titulo = consola.nextLine();
+        System.out.println("resultado = " + titulo + " "+nombre);
         
             
     }
