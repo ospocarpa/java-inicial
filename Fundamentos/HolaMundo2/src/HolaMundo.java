@@ -1,16 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Usuario
- */
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo Java (11/5)");
+        
+        int unEntero = 5;
+        System.out.println(unEntero);
+        unEntero = 10;
+        System.out.println(unEntero);
+        
+        String unaCadena = "Saludos";
+        System.out.println(unaCadena);
+        
+       unaCadena ="Adios";
+        System.out.println(unaCadena);
+        //
+        var unaCadena2 ="Nueva Cadena";  //  
+        System.out.println("unaCadena2 = " + unaCadena2);
+        
+        var unEntero2 = 12;
+        System.out.println("unEntero2 = " + unEntero2);
+        
+            
     }
+    
     
 }
