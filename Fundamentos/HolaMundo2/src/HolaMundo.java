@@ -6,18 +6,32 @@ public class HolaMundo {
     public static void main(String[] args) {
         
 
-            var numeroEntero = 10;
-            System.out.println("numeroEntero = " + numeroEntero);
-            
-            var numeroDouble = 10.0;
-            System.out.println("numeroDouble = " + numeroDouble);
-            
-            var numeroFloat = 10.0F;
-            System.out.println("numeroFloat = " + numeroFloat);
-            
-            var numeroLong = 10L;
-            System.out.println("numeroLong = " + numeroLong);
+        char miCaracter = 'A';
+        System.out.println("miCaracter = " + miCaracter);
         
+        char varChar = '\u0040';
+        System.out.println("varChar = " + varChar);
+        
+        char varDecimal = 64;
+        System.out.println("varDecimal = " + varDecimal);
+        
+        char varSimbolo = '@';
+        System.out.println("varSimbolo = " + varSimbolo);
+        
+        var varChar1 = '\u0040';
+        System.out.println("varChar1 = " + varChar1);
+        
+        var varDecimal2 = 64;
+        System.out.println("varDecimal2 = " + varDecimal2);
+        
+        var varSimbolo3 = '@';
+        System.out.println("varSimbolo3 = " + varSimbolo3);
+        
+        int variableEnteraSimbolo = '@';
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo);
+      
+       int letra  = 'A';
+        System.out.println("letra = " + letra);
         
          
     }
