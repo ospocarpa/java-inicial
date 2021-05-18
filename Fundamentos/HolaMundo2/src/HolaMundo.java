@@ -6,20 +6,29 @@ public class HolaMundo {
     public static void main(String[] args) {
         
 
-//Debes imprimir la información en el siguiente formato:
-//
-//    Proporciona el titulo:
-//    Proporciona el autor:
-//    <titulo> fue escrito por <autor>
-
-        String titulo;String autor;
-        Scanner consola = new Scanner(System.in);
-        System.out.println("Proporcione el titulo");
-        titulo =consola.nextLine();
-         System.out.println("Proporcione el autor");
-        autor = consola.nextLine();
-        System.out.println(titulo + " fue escrito por " +autor);
-
+        byte numeroByte = (byte)130;
+        System.out.println("numeroByte = " + numeroByte);
+        System.out.println("Valor minimo byte:"+Byte.MIN_VALUE);
+        System.out.println("Valor maximo byte:"+Byte.MAX_VALUE);
+        
+        short unShort =(short) 32768;
+        System.out.println("unShort = " + unShort);
+        System.out.println("Valor minimo short:"+Short.MIN_VALUE);
+        System.out.println("Valor maximo short:"+Short.MAX_VALUE);
+        
+        int unInt =  (int)2147483648L;
+        System.out.println("unInt = " + unInt);
+        
+        System.out.println("Valor minimo int:"+Integer.MIN_VALUE);
+        System.out.println("Valor maximo int:"+Integer.MAX_VALUE);
+        
+        long unLong = 9223372036854775807L;
+        System.out.println("unLong = " + unLong);
+        System.out.println("Valor minimo long:"+Long.MIN_VALUE);
+        System.out.println("Valor maximo long:"+Long.MAX_VALUE);
+        
+        
+        
             
     }
     
