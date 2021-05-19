@@ -13,8 +13,17 @@ public class HolaMundo {
        // pedir un valor 
        
      Scanner consola = new Scanner(System.in);
-        System.out.println("Proporcine su edad:");
-     var valor = Integer.parseInt(consola.nextLine());
-        System.out.println("valor = " + valor);    
+//        System.out.println("Proporcine su edad:");
+//     var valor = Integer.parseInt(consola.nextLine());
+//        System.out.println("valor = " + valor);   
+//        
+        
+        var edadTexto = String.valueOf(25);
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var caracter="hola".charAt(1);
+        System.out.println("Proporcione un caracter");
+        caracter = consola.nextLine().charAt(0);
+        System.out.println("caracter = " + caracter);
     }
 }
