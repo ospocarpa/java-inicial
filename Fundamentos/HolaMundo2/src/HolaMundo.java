@@ -6,25 +6,15 @@ public class HolaMundo {
     public static void main(String[] args) {
         
 
-       boolean unBooleano = true;
-        System.out.println("unBooleano = " + unBooleano);
-        
-        if(unBooleano) {
-            System.out.println("La bandera es verdadera");
-        }
-        else {
-            System.out.println("La bandera es falsa");
-        }
-        
-        int edadLupi=26; 
-        if(edadLupi>=18) {
-            System.out.println("Lupi es mayor de edad");
-        }
-        else {
-            System.out.println("Lupi es menor de edad");
-        }
-  
-    
-    
+       var edad = Integer.parseInt("20");
+        System.out.println("edad = " + (edad+1));
+       var PI = Double.parseDouble("3.1416");
+        System.out.println("PI = " + PI);
+       // pedir un valor 
+       
+     Scanner consola = new Scanner(System.in);
+        System.out.println("Proporcine su edad:");
+     var valor = Integer.parseInt(consola.nextLine());
+        System.out.println("valor = " + valor);    
     }
 }
