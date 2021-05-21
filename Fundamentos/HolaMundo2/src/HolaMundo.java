@@ -6,15 +6,15 @@ public class HolaMundo {
 
     public static void main(String[] args) {
 
-      int alto,ancho;
+      int numero1,numero2;
       Scanner consola = new Scanner(System.in);
-        System.out.println("Proporcione el alto");
-        alto = Integer.parseInt(consola.nextLine());
+        System.out.println("Proporcione el numero1");
+        numero1 = Integer.parseInt(consola.nextLine());
        
-        System.out.println("Proporcione el ancho");
-         ancho = Integer.parseInt(consola.nextLine());
-        System.out.println("Area: "+alto*ancho);
-        System.out.println("Perimentro: "+(alto+ancho)*2);
+        System.out.println("Proporcione el numero2");
+         numero2 = Integer.parseInt(consola.nextLine());
+        var mayor = numero1 >numero2 ? numero1:numero2;
+        System.out.println("El numero mayor es: "+ mayor);
                  
     }
 }
