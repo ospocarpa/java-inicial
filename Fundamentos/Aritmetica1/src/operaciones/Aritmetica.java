@@ -11,4 +11,13 @@ public class Aritmetica {
       public int sumarConRetorno() {
           return a+b;
       }
+      
+      public int sumarConArgumentos(int x ,int y) {
+          a=x;
+          b=y;
+          return sumarConRetorno();
+      }
+      
+      
+      
 }

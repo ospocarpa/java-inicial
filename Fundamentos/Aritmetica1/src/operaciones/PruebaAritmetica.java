@@ -11,6 +11,8 @@ public class PruebaAritmetica {
         aritmetica1.a=10;
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("resultado = " + resultado);
+        resultado =aritmetica1.sumarConArgumentos(8, 88);
+        System.out.println("resultado = " + resultado);
     }
     
 }
