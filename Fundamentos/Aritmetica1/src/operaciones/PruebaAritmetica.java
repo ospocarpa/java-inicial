@@ -4,7 +4,7 @@ package operaciones;
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
-        Aritmetica aritmetica1 = new Aritmetica();
+        Aritmetica aritmetica1 = new Aritmetica(5,8);
         aritmetica1.a=5;
         aritmetica1.b=12;
         aritmetica1.sumar();

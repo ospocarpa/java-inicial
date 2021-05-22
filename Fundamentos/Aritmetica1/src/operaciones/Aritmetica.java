@@ -21,6 +21,11 @@ public class Aritmetica {
       public Aritmetica() {
           System.out.println("Ejecutando constructor");
 }
-      
+      public Aritmetica(int a ,int b) {
+          System.out.println("Ejecutando construcctor con argumentos");
+          this.a = a;
+          this.b = b;
+          
+      }
       
 }
