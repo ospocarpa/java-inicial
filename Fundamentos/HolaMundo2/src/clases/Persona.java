@@ -2,8 +2,8 @@
 package clases;
 
 public class Persona {
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     public void datosPersona() {
         System.out.println("nombre = " + nombre);
