@@ -4,15 +4,14 @@ package operaciones;
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
-        Aritmetica aritmetica1 = new Aritmetica(5,8);
-        aritmetica1.a=5;
-        aritmetica1.b=12;
-        aritmetica1.sumar();
-        aritmetica1.a=10;
-        int resultado = aritmetica1.sumarConRetorno();
-        System.out.println("resultado = " + resultado);
-        resultado =aritmetica1.sumarConArgumentos(8, 88);
-        System.out.println("resultado  = " + resultado );
+    
+        Aritmetica aritmetica1 = new Aritmetica();
+        System.out.println("a:" + aritmetica1.a);
+        System.out.println("b:" + aritmetica1.b);
+        Aritmetica aritmetica2 = new Aritmetica(5,8);
+        System.out.println("a:" + aritmetica2.a);
+        System.out.println("b:" + aritmetica2.b);
+        
     }
     
 }
