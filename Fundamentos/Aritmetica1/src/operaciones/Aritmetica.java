@@ -17,7 +17,10 @@ public class Aritmetica {
           this.b=b;
           return sumarConRetorno();
       }
-      
+      //constructor
+      public Aritmetica() {
+          System.out.println("Ejecutando constructor");
+}
       
       
 }
