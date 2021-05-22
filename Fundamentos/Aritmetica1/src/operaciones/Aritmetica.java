@@ -5,16 +5,16 @@ package operaciones;
 public class Aritmetica {
       int a, b;
       public void sumar() {
-          int resultado = a+b;
+          int resultado = this.a+this.b;
           System.out.println("resultado = " + resultado);
       }
       public int sumarConRetorno() {
-          return a+b;
+          return this.a+this.b;
       }
       
-      public int sumarConArgumentos(int x ,int y) {
-          a=x;
-          b=y;
+      public int sumarConArgumentos(int a ,int b) {
+          this.a=a;
+          this.b=b;
           return sumarConRetorno();
       }
       

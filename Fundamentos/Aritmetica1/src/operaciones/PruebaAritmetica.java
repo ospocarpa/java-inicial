@@ -12,7 +12,7 @@ public class PruebaAritmetica {
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("resultado = " + resultado);
         resultado =aritmetica1.sumarConArgumentos(8, 88);
-        System.out.println("resultado = " + resultado);
+        System.out.println("resultado  = " + resultado );
     }
     
 }
