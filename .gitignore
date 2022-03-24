@@ -1,3 +1,7 @@
+*.xml
+*.mf
+*.properties  
+
 /Fundamentos/tipoChar/nbproject/private/
 /Fundamentos/tipoChar/build/
 /Fundamentos/tipoBoolean/nbproject/private/
@@ -45,3 +49,11 @@
 /Fundamentos/Encapsulamiento1/nbproject/private/
 /Fundamentos/Encapsulamiento1/build/
 /Fundamentos/ContextoEstatico1/nbproject/private/
+/Fundamentos2/HolaMundoJava/nbproject/private/
+/Fundamentos2/HolaMundoJava/build/
+/Fundamentos2/HolaMundoJava2022/nbproject/private/
+/Fundamentos2/HolaMundo2022/nbproject/private/
+/Fundamentos2/HolaMundo2022/build/
+/Fundamentos2/HolaMundo/nbproject/private/
+/Fundamentos2/HolaMundo/build/
+/Fundamentos2/HolaMundo/dist/
